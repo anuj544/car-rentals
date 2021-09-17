@@ -1,0 +1,85 @@
+
+/* ANUJ SINGH INTERNSHIP PROJECT 2 TCR */
+
+body{
+    background-color: rgb(10, 238, 131);
+    font-size: 20px;
+    padding: 34px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.header{
+text-align: center;
+margin-bottom: 30px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+background-color: rgb(6, 123, 226);
+height: 60px;
+}
+
+.container{
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-content{
+    background-color: white;
+}
+
+#intro-img{
+    background-image: url(/car\ rental.png);
+    
+    background-size: cover;
+    min-height: 500px;
+    
+}
+
+.section-header{
+    color: blue;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+table{
+    width: 100%;
+    border-spacing: 10px;
+}
+
+tr:nth-child(odd){
+    background-color: chartreuse;
+}
+
+tr{
+    background-color: crimson;
+}
+
+.yum{
+    text-align: center;
+}
+
+.iu{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.photo{
+    height: 200px;
+    width: 200px;
+     float: left; 
+    margin-right: 30px;
+}
+.photo1{
+    float: right;
+}
+
+.hr{
+    border: 4px dotted yellowgreen;
+}
+
+.last-box{
+    /* height: 40px; */
+    background-color: orange;
+}
